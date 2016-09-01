@@ -21,7 +21,7 @@ li {
 .header_middle {
     width: 60%;
     height: 40px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .header_left {
@@ -191,7 +191,7 @@ li {
 
 }
 
-.xz {
+.xhz {
     padding: 5px 60px 0px 0px;
 }
 
