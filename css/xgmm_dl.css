@@ -3,17 +3,12 @@
     padding: 0;
 }
 
-#ff{border: 0px solid red;
-    width: 1366px;
-    height: 550px;
-    margin-top: 55px;
-    position: absolute;
-}
+
 #a{ border: 0px solid red;
     width: 1366px;
     height: 50px;
     background-color: #313a3f;
-    float: left;
+
     position: relative;
 }
 #b{ border: 0px solid red;
@@ -50,14 +45,22 @@
     height: 40px;
 }
 
+#ff{border: 0px solid red;
+    width: 1050px;
+    height: 550px;
+    margin: 0px auto;
+    position: relative;
+
+}
 #f{
     border: 1px solid #dadada;
     width:172px ;
     height:550px;
-    margin-left:240px ;
+
     float:left;
-    position: relative;
+
 }
+
 #g{border: 1px solid #dadada;
     width: 155px;
     height: 40px;
@@ -101,9 +104,9 @@
 #m{border: 1px solid #dadada;
     width: 830px;
     height: 550px;
+
     float: left;
-    margin-left: 30px;
-    position: relative;
+    margin: 0 20px;
 }
 #n{border: 0px solid red;
     width: 85px;
@@ -192,6 +195,6 @@
     height: 100px;
     background-color: #313a3f;
     float: left;
-    margin-top: 570px;
+
 
 }
