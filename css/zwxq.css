@@ -13,6 +13,9 @@ li {
     height: 32px;
     background-color: rgb(47, 58, 63);
     height: 40px;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 
 .header_middle {
@@ -54,8 +57,10 @@ li {
 }
 
 #gs {
-    text-align: center; background-color: rgb(47, 58, 63);
+    text-align: center;
+    background-color: rgb(47, 58, 63);
 }
+
 #gs:hover {
     background-color: rgb(76, 191, 251);
     color: white;
@@ -69,7 +74,8 @@ li {
     font-size: 16px;
 }
 
-#ga { background-color: rgb(47, 58, 63);
+#ga {
+    background-color: rgb(47, 58, 63);
     text-align: center;
 }
 
@@ -87,8 +93,10 @@ li {
 }
 
 #gb {
-    text-align: center; background-color: rgb(47, 58, 63);
+    text-align: center;
+    background-color: rgb(47, 58, 63);
 }
+
 #gb:hover {
     background-color: rgb(76, 191, 251);
     color: white;
@@ -101,17 +109,27 @@ li {
     color: #ffffff;
     font-size: 16px;
 }
+
 #gc {
 
     color: white;
     font-size: 16px;
     background-color: rgb(47, 58, 63);
-    width: 130px; height: 40px;
+    width: 130px;
+    height: 40px;
     float: left;
+    position: absolute;
+    top: 0px;
+    left: 1140px;
 }
-#gc li {float: left;  padding: 0px 3px 0px 9px;}
 
-#hf { background-color: rgb(47, 58, 63);
+#gc li {
+    float: left;
+    padding: 0px 3px 0px 9px;
+}
+
+#hf {
+    background-color: rgb(47, 58, 63);
     text-align: center;
 }
 
@@ -119,7 +137,9 @@ li {
     background-color: rgb(76, 191, 251);
     color: white;
 }
-#hn { background-color: rgb(47, 58, 63);
+
+#hn {
+    background-color: rgb(47, 58, 63);
     text-align: center;
 }
 
@@ -139,8 +159,10 @@ li {
 .body {
     width: 960px;
     height: 900px;
-
     margin: 0px auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 
 .body_left {
@@ -149,6 +171,9 @@ li {
 
     float: left;
     margin-top: 20px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
 }
 
 .logoz {
@@ -347,6 +372,9 @@ li {
     height: 900px;
     float: right;
     margin-top: 20px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
 }
 
 .body_right_header {
