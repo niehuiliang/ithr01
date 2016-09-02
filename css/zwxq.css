@@ -53,6 +53,7 @@ li {
     margin: 0px auto;
     margin-left: 20px;
     list-style-type: none;
+    padding:0 8px;
 
 }
 
@@ -64,6 +65,7 @@ li {
 #gs:hover {
     background-color: rgb(76, 191, 251);
     color: white;
+    cursor: pointer;
 }
 
 .header_right {
@@ -81,7 +83,7 @@ li {
 
 #ga:hover {
     background-color: rgb(76, 191, 251);
-    color: white;
+    color: white; cursor: pointer;
 }
 
 .header_right {
@@ -99,7 +101,7 @@ li {
 
 #gb:hover {
     background-color: rgb(76, 191, 251);
-    color: white;
+    color: white; cursor: pointer;
 }
 
 .header_right {
@@ -135,7 +137,7 @@ li {
 
 #hf:hover {
     background-color: rgb(76, 191, 251);
-    color: white;
+    color: white; cursor: pointer;
 }
 
 #hn {
@@ -145,7 +147,7 @@ li {
 
 #hn:hover {
     background-color: rgb(76, 191, 251);
-    color: white;
+    color: white; cursor: pointer;
 }
 
 .header_right {
@@ -346,8 +348,35 @@ li {
     color: white;
 }
 
-#hs {
+#aa {
+    text-align: center;
+}
+
+#aa:hover {
+    color: white; cursor: pointer;
+}
+#bb {
+    text-align: center;
+}
+
+#bb:hover {
+    color: white; cursor: pointer;
+}
+#cc {
+    text-align: center;
+}
+
+#cc:hover {
+    color: white; cursor: pointer;
+}
+
+
+#hy {
     background-color: #CCCCCC;
+    text-align: center;
+}
+#hy:hover {
+    color: white; cursor: pointer;
 }
 
 .mk1 {
