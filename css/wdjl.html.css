@@ -1,0 +1,98 @@
+
+* {margin:0px;padding:0px}
+.onediv {background-color: #313a3f;
+    height:50px;
+    width: 100%;
+    }
+.ul_div li {float: left;list-style: none;line-height: 50px;width:80px;color: white;
+    text-align: center;}
+.tu_div {float: left;width: 206px;position: relative;left: 225px}
+.ul_div {height: 50px;float: left;width: 275px;position: relative;left: 217px}
+.fourli {background-color: deepskyblue;}
+.twodiv {height: 50px;line-height: 50px;width: 157px;float:left ;position: relative;left:665px}
+select {height: 53px;background-color:#435259;padding-left: 10px;
+    width:157px;}
+#threediv{width: 190px;
+    height: 700px;
+    border: 1px solid  #ccc;
+   float: left;
+    margin-left: 30px;
+    }
+.twoli {clear: both;
+    color: black;
+    width: 140px;
+    position: relative;
+    line-height: 45px;
+    padding-left: 50px}
+.threeli {clear: both;
+    border-bottom: 1px solid #ccc;
+    width: 170px;
+    color: black;
+    padding-left:20px;
+    line-height: 45px}
+img {vertical-align: middle}
+
+
+
+
+
+
+.threeul li {list-style: none;}
+.sevenli {clear: both;color: black;
+    width: 140px;position: relative;
+    line-height: 45px;padding-left: 50px;
+    background-color:orange}
+.eightli {clear: both;color: black;
+    width: 140px;position: relative;
+    line-height: 45px;padding-left: 50px;
+    border-bottom: 1px solid #ccc}
+#fourdiv {width:873px;height: 700px;
+    border: 1px solid  #ccc;margin-left: 20px;
+    float: left }
+#fivediv {border-bottom:2px solid orange;
+    width: 90px;height: 40px;
+    float: left;margin-top: 10px;margin-left: 10px;
+    line-height: 40px; }
+#sixdiv {border-bottom: 1px solid #cccccc;
+    height: 40px;
+    width: 750px;
+    position: relative;
+    top: 11px;left: 100px}
+#sevendiv {width: 820px;
+    height: 50px;
+    border-bottom: 1px dashed #cccccc;
+    line-height: 50px;
+    position: relative;top: 10px;
+    left: 10px;padding-left:20px}
+#eightdiv {position:relative;
+    top: 20px;left:10px;
+    padding-left:10px;
+    width: 830px;height: 260px;}
+.ninediv {width: 808px;height: 50px;
+    border-bottom: 1px dashed #cccccc;
+    line-height: 50px;
+    position: relative;left: 10px;
+    top: 30px;padding-left: 32px}
+.tendiv{width: 838px;height: 50px;
+    position: relative;left: 10px;
+    top: 30px}
+.tendiv ul li {float: left;list-style: none;
+    line-height: 50px;width:165px;
+    height: 50px;text-align: center}
+span {position: relative;
+    left: 69px;
+    color: orange}
+.onespan {position: relative;
+    left: 580px;color: orange}
+.listyle {float: left;
+    list-style: none;
+    width:350px;
+    margin: 0px auto;}
+.li_style {float: right;
+    list-style: none;
+    width:390px;}
+#eightdiv ul li {list-style: none;
+    height:35px;
+    line-height:35px;}
+#bigdiv {width:1200px;height:730px;margin:20px auto; }
+#biggerdiv {width:100%;height:50px;;position: relative}

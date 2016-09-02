@@ -1,56 +1,81 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: "微软雅黑";
 }
-.backg {
-    height: 48px;
+
+.back {
+    height: 52px;
     width: 100%;
-    background-color: rgb(48,57,62);
+    background-color: rgb(48, 57, 62);
 }
+
 .head {
-    height: 48px;
-    width: 70%;
-    margin: 0px auto;
-}
-.head img {
-    float: left;
-    margin-right: 60px;
-}
-.head ul li{
-    float: left;
-    list-style-type: none;
-    margin: 10px 8px;
-    padding: 3px;
-    color: #cccccc;
-    font-size: 15px;
-}
-.head_right{
-    float: right;
-    position: absolute;
-    font-size: 15px;
-    left: 1170px;
-    color: white;
-    background-color: rgb(67,82,89);
+    height: 52px;
+    width: 1089px;
+    margin: auto;
 
 }
+
+.sho {
+    margin-left: 71px;
+}
+
+.gs {
+    margin-left: 40px;
+}
+
+.wo {
+    margin-left: 40px;
+}
+
+.sho:hover,.gs:hover,.wo:hover {
+    background-color: #4cbdf9;
+    cursor: pointer;
+    color: white;
+}
+
+.ko {
+
+}
+
+.ko li {
+    list-style-type: none;
+
+    color: #cccccc;
+    font-size: 15px;
+    float: left;
+    height: 52px;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+.head_right {
+    float: right;
+    margin-left: 498px;
+    background-color: rgb(67, 82, 89);
+}
+
 select {
     position: absolute;
     top: 0px;
     width: 150px;
-    height: 48px;
+    height: 52px;
     text-indent: 1em;
     color: white;
-    background-color: rgb(67,82,89);
+    background-color: rgb(67, 82, 89);
 }
+
 .geren {
     width: 200px;
     height: 700px;
     border: 1px solid rgb(230, 230, 230);
-    margin: 30px 234px;
+    margin-right: 43px;
     float: left;
-    position: relative;
+
 }
+
 .zhongxin {
     width: 100%;
     height: 40px;
@@ -61,9 +86,11 @@ select {
     font-weight: bold;
     border-bottom: 1px solid rgb(230, 230, 230);
 }
+
 img {
     vertical-align: middle;
 }
+
 .hao {
     width: 100%;
     height: 46px;
@@ -73,6 +100,7 @@ img {
     line-height: 46px;
     border-bottom: 1px solid rgb(230, 230, 230);
 }
+
 dd {
     width: 100%;
     height: 40px;
@@ -80,17 +108,19 @@ dd {
     font-size: 15px;
     text-indent: 40px;
 }
-.yellow {
+dd:hover {
     background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
 }
+
+
 .da {
     width: 840px;
     height: 700px;
     float: left;
-    margin-top: 25px;
     border: 1px solid rgb(230, 230, 230);
-    position: absolute;
-    left: 480px;
+
 }
 
 .daa {
@@ -101,6 +131,7 @@ dd {
     margin-right: 20px;
 
 }
+
 .mian {
     width: 70px;
     height: 40px;
@@ -117,6 +148,7 @@ dd {
     float: left;
     border-bottom: 1px solid rgb(230, 230, 230);
 }
+
 .comtent {
     width: 100%;
     height: 48px;
@@ -124,6 +156,7 @@ dd {
     clear: left;
     border-bottom: 1px dashed rgb(230, 230, 230);
 }
+
 .tixing {
     width: 84px;
     height: 48px;
@@ -131,30 +164,34 @@ dd {
     float: left;
     color: rgb(251, 183, 76);
 }
+
 .ti_body {
     width: 504px;
     height: 48px;
     line-height: 48px;
     float: left;
 
-    color: rgb(50,50,50);
+    color: rgb(50, 50, 50);
 }
+
 .time {
     width: 140px;
     height: 48px;
-    color: rgb(50,50,50);
+    color: rgb(50, 50, 50);
     line-height: 48px;
     float: left;
 
 }
+
 .see {
     width: 66px;
     height: 48px;
     line-height: 48px;
     float: left;
 
-    color: rgb(205,205,205);
+    color: rgb(205, 205, 205);
 }
+
 .tixing_qi {
     width: 84px;
     height: 48px;
@@ -162,6 +199,7 @@ dd {
     float: left;
     color: rgb(251, 183, 76);
 }
+
 .bott {
     width: 320px;
     line-height: 23px;
@@ -181,28 +219,44 @@ dd {
     margin-right: 4px;
 }
 
+.bott li:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+
 #bzi {
     width: 60px;
     color: rgb(230, 230, 230);
 
 }
+
 #bh {
     width: 60px;
 }
+
 #sheng {
     height: 24px;
     margin-left: 0px;
     margin-right: 0px;
     border: none;
 }
+
 #san {
     margin-right: 0px;
 }
+
 .btm {
-    background-color: rgb(10,28,48);
+    background-color: rgb(10, 28, 48);
     width: 100%;
     height: 170px;
     clear: left;
+}
+
+.div {
+    width: 1087px;
+    height: 700px;
+    margin: 25px auto;
 }
 
 

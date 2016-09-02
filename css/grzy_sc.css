@@ -1,0 +1,177 @@
+*{
+    margin: 0px;padding: 0px;
+}
+li{
+    list-style: none;
+}
+#dzl{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    background: rgb(46,55,60);
+}
+#box{
+    margin: 0 auto;
+    width: 900px;
+
+}
+.wq{
+    width:1300px;
+    height: 590px;
+    margin:0 auto;
+    border: 1px solid red;
+}
+.a{
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+
+}
+.a1{
+    height: 48px;
+    float: left;
+
+}
+.a li{
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    color: white;
+    margin: 0 0 0 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.b{
+    float: right;
+    margin: 15px 0 0 0;
+
+}
+.w{
+     width: 160px;
+     height: 550px;
+     border: 1px solid #ccc;
+     margin:0px 0 0 40px;
+
+
+     float: left;
+ }
+.w li{
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    padding: 0 0 0 20px;
+    cursor: pointer;
+    font-family: "微软雅黑";
+    font-size: 14px;
+
+
+}
+.q{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #cccccc;
+}
+.a2{
+
+    border-bottom: 1px solid #cccccc;
+}
+#box .w li:hover{
+    color: white;
+    background: darkorange;
+}
+#dw{
+    height: 550px;width: 680px;
+    border: 1px solid #cccccc;
+
+    line-height: 30px;
+    margin: 10px  0 0 220px ;
+}
+.b1{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    margin: 10px 0 0 0px;
+
+}
+.b2{
+    border-bottom: 2px solid orangered;
+    width:80px;
+}
+
+.q1{
+    width:650px;
+    border-bottom: 1px solid #cccccc;
+    margin:0 auto;
+}
+.wd{
+
+    width:640px;height: 105px;
+    border-bottom: 1px dashed #cccccc;
+    margin:0 auto;
+}
+.c1{
+    float: left;
+    margin: 10px 0 5px 20px;
+}
+.c3{
+    margin: -5px 0 0 0;
+
+}
+.wd .c2 {
+
+    line-height: 55px;
+    margin: -20px 0 0 0;
+}
+.wq1{
+    color: orange;
+    font-size: 14px;
+}
+.wq2{
+    color: red;
+}
+.wq3{
+    color: #cccccc;
+    font-size: 14px;
+}
+.bottom{
+
+    margin: 0 0 0 10px;
+    font-size: 10px;
+    font-family: "微软雅黑";
+    cursor: pointer;
+}
+.bottom_a{
+    width: 40px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+.bottom_b{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #cccccc;
+
+}
+.bottom_b:hover{
+    background: darkorange;
+    color: white;
+}
+.ooo ul li{
+    float: left;
+}
+.ooo{
+    margin: 35px 0 0 200px;
+}
+.d1{
+    width: 100%;
+    height: 100px;
+}
+#zlq{
+    width: 100%;
+    height: 100px;
+    background: rgb(10,28,48);
+    margin: 10px 0 0 0;
+    }
