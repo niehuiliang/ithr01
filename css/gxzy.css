@@ -33,11 +33,12 @@ a:link {
     line-height: 48px;
     padding: 0px 20px;
 }
-#qie {
+.fk li:hover {
     background-color: rgb(76,190,250);
     color: white;
     margin-top: 0px;
     height: 48px;
+    cursor: pointer;
 }
 .head_right{
     float: right;
@@ -47,6 +48,13 @@ a:link {
     color: #cccccc;
     width: 90px;
     height: 48px;
+}
+.head_right a:link {
+    color: #ccc;
+}
+.head_right a:hover {
+    color: darkorange;
+    text-decoration: none;
 }
 .bg02 {
     width: 100%;
@@ -238,9 +246,35 @@ a:link {
 #ww {
     color: rgb(238,238,238);
 }
-#wo {
+.body_left_last #one:hover {
     background-color: rgb(252,182,82);
     color: white;
+    cursor: pointer;
+}
+.body_left_last #two:hover {
+    background-color: rgb(252,182,82);
+    color: white;
+    cursor: pointer;
+}
+.body_left_last #three:hover {
+    background-color: rgb(252,182,82);
+    color: white;
+    cursor: pointer;
+}
+.body_left_last #six:hover {
+    background-color: rgb(252,182,82);
+    color: white;
+    cursor: pointer;
+}
+.body_left_last #ww:hover {
+    background-color: rgb(252,182,82);
+    color: white;
+    cursor: pointer;
+}
+.body_left_last #www:hover {
+    background-color: rgb(252,182,82);
+    color: white;
+    cursor: pointer;
 }
 .body_right {
     height: 1652px;
