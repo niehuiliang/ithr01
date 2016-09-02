@@ -13,20 +13,14 @@
 .head {
     height: 52px;
     width: 1089px;
-    margin: auto;
+    margin: 0px auto;
 
 }
-
-.sho {
-    margin-left: 71px;
+.tu {
+    float: left;margin-right: 60px;
 }
-
-.gs {
-    margin-left: 40px;
-}
-
-.wo {
-    margin-left: 40px;
+.tu:hover {
+    cursor: pointer;
 }
 
 .sho:hover,.gs:hover,.wo:hover {
@@ -35,25 +29,24 @@
     color: white;
 }
 
-.ko {
 
-}
 
 .ko li {
     list-style-type: none;
-
+    float: left;
     color: #cccccc;
     font-size: 15px;
-    float: left;
-    height: 52px;
-    line-height: 50px;
-    text-align: center;
+    padding: 2px 10px ;
+    margin: 0px 10px;
+    line-height: 48px;
 
 }
-
+select:hover {
+    cursor: pointer;
+}
 .head_right {
-    float: right;
-    margin-left: 498px;
+    float:left;
+    margin-left:470px;
     background-color: rgb(67, 82, 89);
 }
 
@@ -162,9 +155,12 @@ dd:hover {
     height: 48px;
     line-height: 48px;
     float: left;
-    color: rgb(251, 183, 76);
-}
 
+}
+.tixing:hover {
+    color: rgb(251, 183, 76);
+    cursor: pointer;
+}
 .ti_body {
     width: 504px;
     height: 48px;
@@ -189,7 +185,11 @@ dd:hover {
     line-height: 48px;
     float: left;
 
+
+}
+.see:hover {
     color: rgb(205, 205, 205);
+    cursor: pointer;
 }
 
 .tixing_qi {
@@ -219,7 +219,32 @@ dd:hover {
     margin-right: 4px;
 }
 
-.bott li:hover {
+#bzi:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+#san:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+.er:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+#liu:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+#bh:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+.yellow:hover {
     background-color: rgb(251, 183, 76);
     cursor: pointer;
     color: white;
@@ -241,6 +266,7 @@ dd:hover {
     margin-right: 0px;
     border: none;
 }
+
 
 #san {
     margin-right: 0px;
