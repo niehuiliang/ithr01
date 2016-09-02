@@ -29,6 +29,12 @@
     margin-left: 40px;
 }
 
+.sho:hover,.gs:hover,.wo:hover {
+    background-color: #4cbdf9;
+    cursor: pointer;
+    color: white;
+}
+
 .ko {
 
 }
@@ -102,11 +108,12 @@ dd {
     font-size: 15px;
     text-indent: 40px;
 }
-
-.yellow {
+dd:hover {
     background-color: rgb(251, 183, 76);
+    cursor: pointer;
     color: white;
 }
+
 
 .da {
     width: 840px;
@@ -210,6 +217,12 @@ dd {
     border: 1px solid rgb(230, 230, 230);
     width: 24px;
     margin-right: 4px;
+}
+
+.bott li:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
 }
 
 #bzi {
