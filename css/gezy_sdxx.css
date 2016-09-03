@@ -1,49 +1,55 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: "微软雅黑";
 }
+
 .back {
     height: 52px;
     width: 100%;
-    background-color: rgb(48,57,62);
+    background-color: rgb(48, 57, 62);
 }
+
 .head {
     height: 52px;
     width: 1089px;
-    margin: auto;
+    margin: 0px auto;
 
 }
+.tu {
+    float: left;margin-right: 60px;
+}
+.tu:hover {
+    cursor: pointer;
+}
+
+.sho:hover,.gs:hover,.wo:hover {
+    background-color: #4cbdf9;
+    cursor: pointer;
+    color: white;
+}
 
 
-.sho {
-    margin-left: 71px;
-}
-.gs {
-    margin-left: 40px;
-}
-.wo {
-    margin-left: 40px;
-}
-.ko {
 
-}
 .ko li {
     list-style-type: none;
-
+    float: left;
     color: #cccccc;
     font-size: 15px;
-    float: left;
-    height: 52px;
-    line-height: 50px;
-    text-align: center;
+    padding: 2px 10px ;
+    margin: 0px 10px;
+    line-height: 48px;
 
 }
-.head_right{
-    float: right;
-    margin-left: 498px;
-    background-color: rgb(67,82,89);
+select:hover {
+    cursor: pointer;
 }
+.head_right {
+    float:left;
+    margin-left:470px;
+    background-color: rgb(67, 82, 89);
+}
+
 select {
     position: absolute;
     top: 0px;
@@ -51,8 +57,9 @@ select {
     height: 52px;
     text-indent: 1em;
     color: white;
-    background-color: rgb(67,82,89);
+    background-color: rgb(67, 82, 89);
 }
+
 .geren {
     width: 200px;
     height: 700px;
@@ -61,6 +68,7 @@ select {
     float: left;
 
 }
+
 .zhongxin {
     width: 100%;
     height: 40px;
@@ -71,9 +79,11 @@ select {
     font-weight: bold;
     border-bottom: 1px solid rgb(230, 230, 230);
 }
+
 img {
     vertical-align: middle;
 }
+
 .hao {
     width: 100%;
     height: 46px;
@@ -83,6 +93,7 @@ img {
     line-height: 46px;
     border-bottom: 1px solid rgb(230, 230, 230);
 }
+
 dd {
     width: 100%;
     height: 40px;
@@ -90,15 +101,18 @@ dd {
     font-size: 15px;
     text-indent: 40px;
 }
-.yellow {
+dd:hover {
     background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
 }
+
+
 .da {
     width: 840px;
     height: 700px;
     float: left;
     border: 1px solid rgb(230, 230, 230);
-
 
 }
 
@@ -110,6 +124,7 @@ dd {
     margin-right: 20px;
 
 }
+
 .mian {
     width: 70px;
     height: 40px;
@@ -126,6 +141,7 @@ dd {
     float: left;
     border-bottom: 1px solid rgb(230, 230, 230);
 }
+
 .comtent {
     width: 100%;
     height: 48px;
@@ -133,12 +149,17 @@ dd {
     clear: left;
     border-bottom: 1px dashed rgb(230, 230, 230);
 }
+
 .tixing {
     width: 84px;
     height: 48px;
     line-height: 48px;
     float: left;
+
+}
+.tixing:hover {
     color: rgb(251, 183, 76);
+    cursor: pointer;
 }
 .ti_body {
     width: 504px;
@@ -146,24 +167,31 @@ dd {
     line-height: 48px;
     float: left;
 
-    color: rgb(50,50,50);
+    color: rgb(50, 50, 50);
 }
+
 .time {
     width: 140px;
     height: 48px;
-    color: rgb(50,50,50);
+    color: rgb(50, 50, 50);
     line-height: 48px;
     float: left;
 
 }
+
 .see {
     width: 66px;
     height: 48px;
     line-height: 48px;
     float: left;
 
-    color: rgb(205,205,205);
+
 }
+.see:hover {
+    color: rgb(205, 205, 205);
+    cursor: pointer;
+}
+
 .tixing_qi {
     width: 84px;
     height: 48px;
@@ -171,6 +199,7 @@ dd {
     float: left;
     color: rgb(251, 183, 76);
 }
+
 .bott {
     width: 320px;
     line-height: 23px;
@@ -190,29 +219,66 @@ dd {
     margin-right: 4px;
 }
 
+#bzi:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+#san:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+.er:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+#liu:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+#bh:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+.yellow:hover {
+    background-color: rgb(251, 183, 76);
+    cursor: pointer;
+    color: white;
+}
+
 #bzi {
     width: 60px;
     color: rgb(230, 230, 230);
 
 }
+
 #bh {
     width: 60px;
 }
+
 #sheng {
     height: 24px;
     margin-left: 0px;
     margin-right: 0px;
     border: none;
 }
+
+
 #san {
     margin-right: 0px;
 }
+
 .btm {
-    background-color: rgb(10,28,48);
+    background-color: rgb(10, 28, 48);
     width: 100%;
     height: 170px;
     clear: left;
 }
+
 .div {
     width: 1087px;
     height: 700px;

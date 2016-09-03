@@ -6,7 +6,6 @@
     width: 100%;
     height: 53px;
     background-color: #313A3F;
-    position: relative;
 
 }
 .logotop2{
@@ -18,7 +17,6 @@
 .logotop3{
     width: 272px;
     float: left;
-    position: relative;
 
 
 }
@@ -82,6 +80,7 @@ dd{
 }
 #c{
     background-color: #FAB64C;
+    color: #ffffff;
 
 }
 .demo2{
